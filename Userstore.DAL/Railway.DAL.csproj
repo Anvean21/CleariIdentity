@@ -58,9 +58,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EF\ApplicationContext.cs" />
+    <Compile Include="EF\RailrouteContext.cs" />
     <Compile Include="Entities\ApplicationRole.cs" />
     <Compile Include="Entities\ApplicationUser.cs" />
     <Compile Include="Entities\ClientProfile.cs" />
+    <Compile Include="Entities\Railroute.cs" />
+    <Compile Include="Entities\RailrouteStation.cs" />
+    <Compile Include="Entities\Station.cs" />
     <Compile Include="Interfaces\IClientManager.cs" />
     <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
